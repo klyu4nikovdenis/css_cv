@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+ 
+  font-size: 16px;
+  font-weight: normal;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
+  /*font: normal 16px 'Roboto', sans-serif; */
+}
+
+a  {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(212, 154, 29);
+
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-widdth: 700px) {
+  .info {
+    text-align:center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+margin-bottom: 10px;
+}
+
+.info p {
+  color: rgb(35, 39, 39);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; это в каком виде писать буквы, у нас тут в верхнем регистре */
+  /*letter-spacing: 4px; это расстояние между буквами в словах*/
+  /*word-spacing: 45px; это расстояние между словами */
+}
+/*Box model*/
+
+.container  {
+  font-size: normal;
+  max-width: 750px;margin: auto;
+  padding-top: 30px;
+}
+
+/*.social {*/
+/*background: rgb(165, 153, 153);*/
+/* padding: 15px 40 px; первое значение отвечает за верх и низ, второе за лево и право/ если задать 4 значения , то будет верх право низ лево по час стрелке */
+/* padding: 15px 40 px; */
+/*padding-top: 15px;
+padding-bottom: 5px;
+padding-left: 30px;
+padding-right: 30px;
+
+margin: 20px;
+
+border: 5px coral;
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: rgb(18, 8, 150);
+}
+*/
+/*.box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+}*/
+
+.bg-yellow {
+  background: #ece6c5;
+}
+
+.bg-green {
+  background: #90c795;
+}
+
+.bg-red {
+  background: #c29a9a;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+  
+}
+
+.list li {
+  color: rgb(165, 149, 149);
+  margin-bottom: 10px;
+}
+
+.table  {
+  width: 100%;
+}
+
+.table  td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+color: rgb(165, 149, 149);
+}
+
+/*.table td:nth-child(even) {
+  background: red;
+} */
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btn  {
+  background: black;
+  padding: 15px 20px;
+  color: #f1f1f1;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/*Position*/
+
+/*.position {
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  color: rgb(196, 59, 10);
+}*/
+
